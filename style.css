@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul#cakes {
+	width: 700;
+	position: absolute;
+	left: 100;
+	top: 0;
+}
+
+ul#cakes li {
+	position: absolute;
+	display: inline;
+	cursor:n-resize;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	box-shadow: 10px blue;
+}
+
+ul li div {
+	width: 150;
+	height: 100;
+	margin:5px;
+	cursor:default;
+}
